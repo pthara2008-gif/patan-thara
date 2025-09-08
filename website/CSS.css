@@ -1,0 +1,163 @@
+/* General  */
+body {
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:whitesmoke;
+    color:black;
+}
+
+/* Header */
+header{
+    background: rgb(3, 3, 75);
+    border-style:double;
+    border-radius: 10px;
+    text-shadow: 3px 10px 20px skyblue;
+    font-size: large;
+    color:whitesmoke;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1{ 
+    margin: 0;
+}
+
+nav a{
+    color:whitesmoke;
+    text-decoration:none;
+    margin: 0 12px;
+    font-weight:initial;
+}
+nav a:hover {
+ color: gray;}
+/* Hero Section */
+.hero {
+    background: url(https://www.pixelstalk.net/wp-content/uploads/images6/Universe-Wallpaper-HD-Free-download.jpg)center/cover no-repeat;
+    color:white;
+    text-align:center;
+    text-shadow: 3px 8px 11px black;
+    border-style: ridge;
+    padding:100px 100px;
+    font-size:x-large;
+
+} 
+
+/* Flex Content*/
+.container{
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+    flex: 1;
+    min-width: 250px;
+    background:rgb(226, 238, 243);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow:0px 5px 11px black;
+    transition: transform 0.5s;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+}
+/* Testimonial*/
+
+.testimonial-container{
+    display:flex;
+    justify-content:center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.testimonial{
+    background:rgb(226, 238, 243);
+    padding: 20px;
+    border-radius: 10px;
+    width: 290px;
+    box-shadow:5px 5px 10px skyblue;
+    font-style:italic;
+}
+/* Call to Action*/
+.cta{
+    background: rgb(3, 3, 75);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+.cta button{
+    padding: 12px 20px;
+    background:rgb(223, 191, 49) ;
+    color:black;
+    font-size: 1 rem;
+    border-radius: 8px;
+    cursor:pointer;
+    margin-top: 15px;
+    box-shadow:0px 10px 11px rgb(232, 171, 4);
+    transition:transform 0.3s;
+}
+.cta button:hover {
+    transform: translateY(-5px);
+
+}
+
+/* Gallery*/
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+.gallery figure{
+    text-align: center;
+}
+
+.gallery img{
+    width:300px;
+    border-radius: 50px;
+    box-shadow:0px 5px 10px black;
+}
+
+figcaption{
+    margin-top: 20px;
+    font-size: 1rem;
+    color:black;
+}
+/* Travel Quote*/
+.quote{
+    color: red;
+    text-align:center ;
+    padding: 40px 20px;
+    font-style: italic;
+}
+/*Footer*/
+footer{
+    background:rgb(3, 3, 75);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/*About Section*/
+.about{
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+    justify-content:space-around;
+    flex-wrap: wrap;
+
+}
+.self{
+    flex: 1;
+    min-width: 250px;
+    background:rgb(226, 238, 243);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow:0px 5px 11px rgb(3, 3, 75);
+
+}
